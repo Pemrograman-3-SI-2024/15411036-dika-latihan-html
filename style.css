@@ -1,0 +1,64 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 12px;
+  background-color: #efefef;
+}
+
+.title1 {
+  color: #1a0ef7;
+}
+
+.my-btn {
+  background-color: #0f87e2;
+  border: none;
+  /* atas, kanan, bawah, kiri */
+  /* padding: 1em 4em 8em 12em; */
+  padding: 0.7em 1.3em;
+  /* padding-top: 10em;
+  padding-left: 10em; */
+  border-radius: 20px;
+  color: #ffff;
+}
+
+.outline-btn {
+  border: 1px solid rgb(41, 70, 97);
+  padding: 0.7em 1.3em;
+  border-radius: 20px;
+  background-color: #ffff;
+  color: rgb(41, 70, 97);
+}
+
+.outline-btn:hover {
+  background-color: rgb(41, 70, 97);
+  color: white;
+  /* font-size: 30px; */
+}
+
+.my-table {
+  border: none;
+  border-collapse:collapse;
+  margin-bottom: 2em;
+}
+
+.my-table td {
+  padding: 1em;
+}
+
+.my-table tr:nth-child(even) {
+  background-color: #e8f5fb;
+}
+
+.my-card {
+  width: 20em;
+  background-color: rgb(255, 255, 255);
+}
+
+.my-card .card-content {
+  padding: 1em 1em 0.1em 1em;
+}
+
+.my-card .card-content .card-title {
+  font-weight: bold;
+  font-size: 14px;
+  color: #353738;
+}
